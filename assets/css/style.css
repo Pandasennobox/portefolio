@@ -5,7 +5,7 @@
     --bg-main: #e6e6e3;      /* Gris bleu anti-fatigue */
     --bg-alt: #ffffff;
     --card-bg: #ffffff;
-    --border-color: #a237bd;
+    --border-color: #000080;
     --shadow-soft: 0 4px 10px rgba(0, 0, 0, 0.08);
 }
 
@@ -74,9 +74,9 @@ body {
 }
 
 /* HEADER & BOUTON */
-.header { background: linear-gradient(135deg, #a237bd, #22d3ee); padding: 80px 20px; color: white; text-align: center; }
+.header { background: linear-gradient(135deg, #000080, #22d3ee); padding: 80px 20px; color: white; text-align: center; }
 .btn-custom { display: inline-block; background: var(--bs-blue); color: white !important; padding: 10px 25px; border-radius: 50px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 0px	#1434A4; transition: 0.2s; border: none; }
-.btn-custom:hover { transform: translateY(2px); box-shadow: 0 2px 0px #a237bd; }
+.btn-custom:hover { transform: translateY(2px); box-shadow: 0 2px 0px #000080; }
 
 /* DARK MODE (Gris foncé / Gris clair) */
 body.dark-mode { background-color: #0f172a; color: #e2e8f0; --border-color: #1e293b; }
