@@ -2,7 +2,7 @@
     --bs-blue: #0096FF;
     --bs-cyan: #22d3ee;
     --bs-dark-gray: #1f2937;
-    --bg-main: #e6e6e3;      /* Gris bleu anti-fatigue */
+    --bg-main: #2896c9;      /* Gris bleu anti-fatigue */
     --bg-alt: #ffffff;
     --card-bg: #ffffff;
     --border-color: #000080;
@@ -75,7 +75,7 @@ body {
 
 /* HEADER & BOUTON */
 .header { background: linear-gradient(135deg, #000080, #22d3ee); padding: 80px 20px; color: white; text-align: center; }
-.btn-custom { display: inline-block; background: var(--bs-blue); color: white !important; padding: 10px 25px; border-radius: 50px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 0px	#1434A4; transition: 0.2s; border: none; }
+.btn-custom { display: inline-block; background: var(--bs-blue); color: white !important; padding: 10px 25px; border-radius: 50px; text-decoration: none; font-weight: 600; box-shadow: 0 4px 0px	#146aa4; transition: 0.2s; border: none; }
 .btn-custom:hover { transform: translateY(2px); box-shadow: 0 2px 0px #000080; }
 
 /* DARK MODE (Gris foncé / Gris clair) */
