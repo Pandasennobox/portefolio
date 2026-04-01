@@ -1,0 +1,33 @@
+.bgimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('background.jpg');
+  min-height: 100%;
+}
+
+.btn-custom {
+  background: var(--darkreader-bg--bs-violet);
+  color: var(--darkreader-text-ffffff, #e8e6e3) !important;
+  text-decoration-color: currentcolor;
+  box-shadow: var(--darkreader-background-6b21a8, #561a86) 0px 4px 0px;
+  border-color: currentcolor;
+}
+
+.btn-custom {
+  display: inline-block;
+  background: var(--bs-violet);
+  color: white !important;
+  padding: 10px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+    text-decoration-color: currentcolor;
+  font-weight: 600;
+  box-shadow: 0 4px 0px #6b21a8;
+  transition: 0.2s;
+  border: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+}
