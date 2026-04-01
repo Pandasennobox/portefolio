@@ -92,3 +92,5 @@ body.dark-mode .bg-blue-light { background-color: rgba(56, 189, 248, 0.1); color
 .popup-close { position: absolute; top: 20px; right: 30px; color: white; font-size: 40px; cursor: pointer; }
 
 .footer { padding: 40px 0; background-color: var(--bs-dark-gray); }
+
+
