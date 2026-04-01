@@ -31,3 +31,20 @@
     border-bottom-color: currentcolor;
     border-left-color: currentcolor;
 }
+
+.section-white {
+  background-color: var(--darkreader-bg--bg-alt, var(--darkreader-background-ffffff, #181a1b));
+}
+.section {
+  border-bottom: 1px solid var(--darkreader-border--border-color);
+}
+.section-white {
+  background-color: var(--bg-alt);
+}
+.section {
+  padding: 80px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
