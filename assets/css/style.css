@@ -32,7 +32,7 @@ body {
 /* CARTES ET IMAGES */
 .card { background-color: var(--card-bg); border: 1px solid var(--border-color) !important; box-shadow: var(--shadow-soft); border-radius: 12px; overflow: hidden; }
 .certif-img-container { height: 180px; overflow: hidden; border-bottom: 1px solid var(--border-color); background: #f8fafc; }
-.certif-preview-img, .project-img { width: 100%; height: 100%; object-fit: cover; cursor: pointer; transition: 0.3s; }
+.certif-preview-img, .project-img { width: 100%; height: 100%; object-fit: scale-down; cursor: pointer; transition: 0.3s; }
 .project-img { height: 220px; }
 .certif-preview-img:hover, .project-img:hover { opacity: 0.85; transform: scale(1.02); }
 
