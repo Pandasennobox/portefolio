@@ -34,7 +34,7 @@ body {
 .certif-img-container { height: auto; overflow: hidden; border-bottom: 3px solid var(--border-color); background: #f8fafc; }
 .certif-preview-img, .project-img { width: 100%; height: 100%; object-fit: scale-down; cursor: pointer; transition: 0.3s; }
 .project-img { height: 220px; }
-.certif-preview-img:hover, .project-img:hover { opacity: 0.85; transform: scale(1.02); }
+.certif-preview-img:hover, .project-img:hover { opacity: 0.85; transform: scale(1.00); }
 
 /* BADGES SLAM (blue) */
 .badge-custom {
@@ -60,7 +60,7 @@ body {
 
 /* TIMELINE (Ligne de vie violette) */
 .timeline { position: relative; max-width: 1000px; margin: 40px auto; }
-.timeline::after { content: ''; position: absolute; left: 60%; width: 45x; background: var(--bs-blue); top: 0; bottom: 0; transform: translateX(-50%); }
+.timeline::after { content: ''; position: absolute; left: 50%; width: 45x; background: var(--bs-blue); top: 0; bottom: 0; transform: translateX(-50%); }
 .timeline-item { position: relative; width: 50%; padding: 10px 40px; margin-bottom: 20px; z-index: 1; }
 .timeline-item:nth-child(even) { left: 50%; }
 .timeline-dot { position: absolute; top: 25px; width: 20px; height: 20px; background: var(--bs-blue); border: 4px solid white; border-radius: 70%; z-index: 10; }
